@@ -1,31 +1,28 @@
 KAMPUS+
-üniversite öğrencilerinin hem
-birbirleriyle bağlantı kurabileceği hem de kampüs yaşamını daha dolu dolu yaşayabileceği
-bir sosyal platform olmayı hedefliyor.
 
-🔍 Projede yer alan temel özellikler şu şekilde:
+Üniversite öğrencilerinin birbirleriyle bağlantı kurabileceği ve kampüs yaşamını daha dolu dolu yaşayabileceği bir sosyal platform olmayı hedefliyor.
+
+🔍 Projede yer alan temel özellikler:
+
 🔹 🏠 Anasayfa:
-   • 📅 Yaklaşan etkinlikler
-   • 🌟 En aktif kulüpler
-   • 🆕 Yeni açılan kulüpler
-🔹 🗂 Diğer sayfalar:
-   • 🤝 Kulüplere sponsor olmak isteyen firmalar için Askıda Sponsorluk sayfası
-   • 🔎 Tüm kulüplerin listelenip aranabildiği kapsamlı bir kulüp arama sayfası
-   • 🛠 Kulüp yöneticilerinin etkinlikleri ve üyeleri kolayca yönetebileceği bir yönetim paneli
-   • 📆 Her kulüp için özel olarak tasarlanmış bir yaklaşan etkinlikler bölümü
-   • 📝 Yeni kulüp kurmak isteyenler için kulüp başvuru sayfası
-   • 👤 Kullanıcıların kendi bilgilerini görüntüleyebileceği kişisel bir profil sayfası
+• 📅 Yaklaşan etkinlikler
+• 🌟 En aktif kulüpler
+• 🆕 Yeni açılan kulüpler
 
-🎯 KAMPUS+ , öğrencilerin kampüs hayatına daha aktif katılım göstermelerini, kulüplerin
-görünürlüğünü artırmalarını ve üniversite deneyiminin yalnızca akademik değil, sosyal
-yönüyle de zenginleşmesini amaçlıyor.
+🔹 🗂 Diğer sayfalar:
+• 🤝 Kulüplere sponsor olmak isteyen firmalar için Askıda Sponsorluk sayfası
+• 🔎 Tüm kulüplerin listelenip aranabildiği kapsamlı kulüp arama sayfası
+• 🛠 Kulüp yöneticilerinin etkinlikleri ve üyeleri kolayca yönetebileceği yönetim paneli
+• 📆 Her kulüp için özel olarak tasarlanmış yaklaşan etkinlikler bölümü
+• 📝 Yeni kulüp kurmak isteyenler için kulüp başvuru sayfası
+• 👤 Kullanıcıların kendi bilgilerini görüntüleyebileceği kişisel profil sayfası
+
+🎯 KAMPUS+, öğrencilerin kampüs hayatına daha aktif katılım göstermelerini, kulüplerin görünürlüğünü artırmalarını ve üniversite deneyimini sadece akademik değil, sosyal yönüyle de zenginleştirmeyi amaçlıyor.
 
 🛠 Kullandığımız teknolojiler:
-  • 💻 C# (kodlama)
-  • 🎨 Figma (arayüz tasarımları)
-  • 🗄 MS SQL (Veritabanı tablo ve diiyagramı)
-  • 📝 Excalidraw (proje aşamasında alınacak notlar ve veritabanında yapılacak hataları
-minimize etmek için çizimlenip sonrasında tasarlanmasında)
+• 💻 C# (Kodlama)
+• 🎨 Figma (Arayüz tasarımları)
+• 🗄 MS SQL (Veritabanı tabloları ve diyagramları)
+• 📝 Excalidraw (Proje aşamasında not almak ve veritabanı tasarımında hataları minimize etmek için çizimler)
 
-!!Görsel tasarımlarına KampusPlus klasörü içindeki tasarim.png görselinden ulaşabilirsiniz.
-
+‼️ Görsel tasarımlara, proje klasöründeki KampusPlus/tasarim.png dosyasından ulaşabilirsiniz.

@@ -27,4 +27,5 @@ yönüyle de zenginleşmesini amaçlıyor.
   • 📝 Excalidraw (proje aşamasında alınacak notlar ve veritabanında yapılacak hataları
 minimize etmek için çizimlenip sonrasında tasarlanmasında)
 
-![Tasarım](C:\Users\hasan\OneDrive\Masaüstü\KampusPlus\KampusPlus\tasarim.png)
+!!Görsel tasarımlarına KampusPlus klasörü içindeki tasarim.png görselinden ulaşabilirsiniz.
+

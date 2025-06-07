@@ -27,4 +27,4 @@ yönüyle de zenginleşmesini amaçlıyor.
   • 📝 Excalidraw (proje aşamasında alınacak notlar ve veritabanında yapılacak hataları
 minimize etmek için çizimlenip sonrasında tasarlanmasında)
 
-[Tasarım Görselleri](https://github.com/ImpLych/KampusPLUS/blob/master/KampusPlus/tasar%C4%B1mlar.png)
+![Tasarım](KampusPlus/tasarim.png)

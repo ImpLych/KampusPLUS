@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4687873-7E23-48B9-8DBB-8CBF6F5606AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KampusPlus</RootNamespace>
+    <AssemblyName>KampusPlus</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="KampusPlusProjeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KampusPlusProjeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KampusPlusProjeDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KampusPlusProjeDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sqlbaglantisi.cs" />
+    <Compile Include="FrmAnasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnasayfa.Designer.cs">
+      <DependentUpon>FrmAnasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAnasayfa2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnasayfa2.Designer.cs">
+      <DependentUpon>FrmAnasayfa2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiris.Designer.cs">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKullaniciProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKullaniciProfil.Designer.cs">
+      <DependentUpon>FrmKullaniciProfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKulupBasvuru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKulupBasvuru.Designer.cs">
+      <DependentUpon>FrmKulupBasvuru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKulupKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKulupKayit.Designer.cs">
+      <DependentUpon>FrmKulupKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKulupler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKulupler.Designer.cs">
+      <DependentUpon>FrmKulupler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKulupSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKulupSayfa.Designer.cs">
+      <DependentUpon>FrmKulupSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSponsorBasvuru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSponsorBasvuru.Designer.cs">
+      <DependentUpon>FrmSponsorBasvuru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYaklasanEtkinlikler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYaklasanEtkinlikler.Designer.cs">
+      <DependentUpon>FrmYaklasanEtkinlikler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYonetimPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYonetimPaneli.Designer.cs">
+      <DependentUpon>FrmYonetimPaneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KulupYaklasanEtkinlik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KulupYaklasanEtkinlik.Designer.cs">
+      <DependentUpon>KulupYaklasanEtkinlik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAnasayfa.resx">
+      <DependentUpon>FrmAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAnasayfa2.resx">
+      <DependentUpon>FrmAnasayfa2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGiris.resx">
+      <DependentUpon>FrmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKullaniciProfil.resx">
+      <DependentUpon>FrmKullaniciProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKulupBasvuru.resx">
+      <DependentUpon>FrmKulupBasvuru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKulupKayit.resx">
+      <DependentUpon>FrmKulupKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKulupler.resx">
+      <DependentUpon>FrmKulupler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKulupSayfa.resx">
+      <DependentUpon>FrmKulupSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSponsorBasvuru.resx">
+      <DependentUpon>FrmSponsorBasvuru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYaklasanEtkinlikler.resx">
+      <DependentUpon>FrmYaklasanEtkinlikler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYonetimPaneli.resx">
+      <DependentUpon>FrmYonetimPaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KulupYaklasanEtkinlik.resx">
+      <DependentUpon>KulupYaklasanEtkinlik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="KampusPlusProjeDataSet.xsc">
+      <DependentUpon>KampusPlusProjeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KampusPlusProjeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KampusPlusProjeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KampusPlusProjeDataSet.xss">
+      <DependentUpon>KampusPlusProjeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KampusPlusProjeDataSet1.xsc">
+      <DependentUpon>KampusPlusProjeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KampusPlusProjeDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KampusPlusProjeDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KampusPlusProjeDataSet1.xss">
+      <DependentUpon>KampusPlusProjeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XMLFile1.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

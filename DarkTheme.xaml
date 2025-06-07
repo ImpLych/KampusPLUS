@@ -1,0 +1,34 @@
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Arka planý koyulaþtýrýyoruz -->
+    <Color x:Key="BackgroundColor">#222222</Color>
+    <Color x:Key="ForegroundColor">White</Color>
+
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}" />
+    <SolidColorBrush x:Key="ForegroundBrush" Color="{StaticResource ForegroundColor}" />
+
+    <!-- Varsayýlan pencere stilini güncelliyoruz -->
+    <Style TargetType="Window">
+        <Setter Property="Background" Value="{StaticResource BackgroundBrush}" />
+        <Setter Property="Foreground" Value="{StaticResource ForegroundBrush}" />
+    </Style>
+
+    <!-- TextBox gibi kontrollerin rengini ayarlayalým -->
+    <Style TargetType="TextBox">
+        <Setter Property="Background" Value="#333333"/>
+        <!-- Daha koyu gri -->
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="BorderBrush" Value="Gray"/>
+    </Style>
+
+    <!-- Buttonlar için stil tanýmlayalým -->
+    <Style TargetType="Button">
+        <Setter Property="Background" Value="#444444"/>
+        <!-- Koyu gri buton -->
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="BorderBrush" Value="Gray"/>
+    </Style>
+
+</ResourceDictionary>
